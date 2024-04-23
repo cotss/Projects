@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  #flag-container {
+    margin-top: 20px;
+  }
+  
+  #flag {
+    max-width: 300px;
+    max-height: 200px;
+  }
+  
+  #options {
+    margin-top: 20px;
+  }
+  
+  .option {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #difficulty {
+    margin-top: 20px;
+  }
+  
+  #timer {
+    margin-top: 20px;
+  }

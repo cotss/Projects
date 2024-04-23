@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Picker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="color-picker">
+  <h1>Color Picker</h1>
+  <div>
+    <label for="background-color">Background Color:</label>
+    <input type="color" id="background-color">
+  </div>
+  <div>
+    <label for="text-color">Text Color:</label>
+    <input type="color" id="text-color">
+  </div>
+  <div>
+    <label for="font-family">Font:</label>
+    <select id="font-family">
+      <option value="Arial, sans-serif">Arial</option>
+      <option value="Verdana, sans-serif">Verdana</option>
+      <option value="Georgia, serif">Georgia</option>
+      <option value="Times New Roman, serif">Times New Roman</option>
+    </select>
+  </div>
+  <div>
+    <label for="text-input">Text:</label>
+    <input type="text" id="text-input" placeholder="Enter text...">
+  </div>
+  <div id="output" class="output-container">
+    <div id="output-text" class="output"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
